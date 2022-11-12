@@ -136,7 +136,8 @@ data class PokemonSprites(
     val backFemale: String?,
     val backShinyFemale: String?,
     val frontFemale: String?,
-    val frontShinyFemale: String?
+    val frontShinyFemale: String?,
+    val other: Map<String, Any>
 
 )
 

@@ -230,6 +230,8 @@ interface PokeApi {
 
     fun getPokemon(id: Int): Pokemon
 
+    fun getPokemon(name: String): Pokemon
+
     fun getPokemonEncounterList(id: Int): List<LocationAreaEncounter>
 
     fun getPokemonColor(id: Int): PokemonColor
